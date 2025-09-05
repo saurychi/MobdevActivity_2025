@@ -1,6 +1,6 @@
 import { Image } from 'expo-image';
-import { Platform, StyleSheet } from 'react-native';
-
+import { Platform, StyleSheet, Text, Pressable } from 'react-native';
+import { router } from "expo-router";
 import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
@@ -50,6 +50,15 @@ export default function HomeScreen() {
           <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
           <ThemedText type="defaultSemiBold">app-example</ThemedText>.
         </ThemedText>
+      </ThemedView>
+      <ThemedView style={styles.stepContainer}>
+        <ThemedText type="subtitle">Step 4: Login</ThemedText>
+        <Pressable onPress={() => router.push("../Authentication/spotifyLogin")}>
+          <Text>Log in</Text>
+        </Pressable>
+        <Pressable onPress={() => router.push("./playlist")}>
+          <Text>Playlist</Text>
+        </Pressable>
       </ThemedView>
     </ParallaxScrollView>
   );
