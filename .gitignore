@@ -37,3 +37,28 @@ yarn-error.*
 *.tsbuildinfo
 
 app-example
+
+
+
+###############new-appends################
+
+# React Native
+.expo/
+.expo-shared/
+web-build/
+dist/
+build/
+
+# Metro / Watchman / Logs
+.expo/*
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS / Android / iOS
+*.xcworkspace
+ios/Pods/
+android/.gradle/
+android/app/build/
+android/build/
