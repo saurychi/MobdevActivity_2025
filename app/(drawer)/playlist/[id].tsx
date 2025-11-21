@@ -18,10 +18,10 @@ import {
 
 // playlists array (same as in Playlists.tsx)
 const playlists = [
-  { id: "1", title: "Juna Beats", image: require("../../../assets/images/nadeshiko-kagamihara.jpg") },
-  { id: "2", title: "Swag Vibes", image: require("../../../assets/images/rimuru.jpg") },
-  { id: "3", title: "The Last Wun", image: require("../../../assets/images/baka_teto.jpg") },
-  { id: "4", title: "Larger Than Life", image: require("../../../assets/images/d28761f16f34280193c11e59ec2aab1d.png") },
+  { id: "1", title: "Cabinet Wonderland", image: require("../../../assets/images/nadeshiko-kagamihara.jpg") },
+  { id: "2", title: "Sky-Colored Walk", image: require("../../../assets/images/rimuru.jpg") },
+  { id: "3", title: "Playlist 3", image: require("../../../assets/images/baka_teto.jpg") },
+  { id: "4", title: "Playlist 4", image: require("../../../assets/images/d28761f16f34280193c11e59ec2aab1d.png") },
 ];
 
 // Reducer for songs

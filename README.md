@@ -5,7 +5,7 @@ A custom drawer navigator styled with Spotify-like icons provides quick access t
 
 <p align="center"> <img src="spotify-ui-screenshot-1.jpg" alt="Spotify UI Screenshot" width="300"/> <img src="navigation-drawer.jpg" alt="Navigation Drawer" width="300"/> <img src="playlists-screen.jpg" alt="Playlists Screen" width="300"/> <img src="profile-screen.jpg" alt="Profile Screen" width="300"/> <img src="settings-screen.jpg" alt="Settings Screen" width="300"/> </p>
 🧩 Week 4 – Activity 1
-<p align="center"> <img src="week4-activity1.jpg" alt="Week 4 Activity 1" width="300"/> </p>
+<p align="center"> <img src="playlists-screen.jpg" alt="Week 4 Activity 1" width="300"/> </p>
 
 Our state management approach used useReducer for handling complex playlist operations like add, remove, clear, and undo/redo, while AsyncStorage ensured playlists persisted across app restarts.
 We structured the state into past, present, and future to support time-travel editing, and relied on useState only for lightweight inputs such as the new song field.
