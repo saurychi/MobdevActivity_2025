@@ -12,7 +12,7 @@ We structured the state into past, present, and future to support time-travel ed
 This separation made the app both clean and scalable.
 
 🧩 Week 4 – Activity 2
-<p align="center"> <img src="week4-activity2.jpg" alt="Week 4 Activity 2" width="300"/> </p>
+<p align="center"> <img src="profile-screen.jpg" alt="Week 4 Activity 2" width="300"/> </p>
 
 The validation logic runs in real time as the user types, checking that the username is 3–20 characters, the email has a valid format, and the genre matches the allowed list.
 Errors are shown below input fields, and invalid inputs get a red border.
@@ -25,14 +25,14 @@ The theme was managed using a Redux store, with a darkMode state controlling app
 UI components switch between light and dark modes with animated transitions for a smoother, more natural experience.
 
 🧩 Week 5 – Activity 2
-<p align="center"> <img src="updated profile screen.jpg" alt="Updated Profile Screen" width="300"/> <img src="front camera trigger.jpg" alt="Front Camera" width="300"/> <img src="back camera trigger.jpg" alt="Back Camera" width="300"/> </p>
+<p align="center"> <img src="profile-screen.jpg" alt="Updated Profile Screen" width="300"/> <img src="front camera trigger.jpg" alt="Front Camera" width="300"/> <img src="back camera trigger.jpg" alt="Back Camera" width="300"/> </p>
 
 The camera functionality allows users to capture photos directly in the app using the device’s camera.
 Users can switch between front and back cameras and save photos instantly.
 APIs like Expo Camera make it easy to access these features across devices, enabling personalized and real-time content creation.
 
 🧩 Week 6 – Activity 1
-<p align="center"> <img src="week 6 activity 1.jpg" alt="Week 6 Activity 1" width="300"/> </p>
+<p align="center"> <img src="playlists-screen.jpg" alt="Week 6 Activity 1" width="300"/> </p>
 
 Building the iOS version was challenging because we encountered issues with Expo and third-party packages.
 Eventually, we managed to build successfully on iOS using Expo, but future tasks aim to build it without Expo to reduce dependency-related issues.
